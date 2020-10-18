@@ -1,0 +1,40 @@
+	Exercice 1
+
+Question 1
+
+/
+
+Question 2 
+
+"Compilez mon_test.c avec la commande suivante : gcc mon_test.c -o mon_test"
+
+Question 3
+
+Sans parametres: "Usage : mon_test <un_entier>"
+./mon_test 20: "Il est pair"
+./mon_test 21: "Il n'est pas pair"
+
+Question 4
+
+Meme si on a renommer le nom de l'executif, on se rend comtpe que dans le print,
+ce ne va pas etre le cas. On aura toujours:
+"Usage : mon_test <un_entier>" au lieu de "Usage : est_il_pair <un_entier>"
+
+
+Question 5
+
+Pour regler ce probleme, on peut utiliser la premier valeur du tableau
+argv, comme il contient le nom de l'executif:
+printf("Usage : %s <un_entier>\n",argv[0]+2);
+Meme si on renomme l'executif, a chaque fois pn aura le bon printf.
+On fait +2 pour ne pas recuperer le "./".
+
+
+
+
+
+
+
+
+
+

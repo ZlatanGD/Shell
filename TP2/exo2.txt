@@ -1,0 +1,31 @@
+	Exercice 2
+
+Question 1
+
+/
+
+Question 2
+
+"est_il_pair: command not found"
+Il nous manque le "./". On l'utilise pour nous donner le "Pathname" du repertoire dans
+lequel on travail. Il faut modifier le PATH ou rajouter "./".
+
+Question 3
+
+PATH_OLD=$PATH
+PATH=~/mnt/c/Users/Zlatan Gojak/Desktop/Faks/L2Informatique/Shell/TP2/exo2:$PATH
+
+Question 4
+
+PATH=.:PATH
+Plus de problèmes.
+
+Question 5
+
+/
+
+Question 6
+
+C'est dangereux parce que on ne peut plus utiliser les commandes
+usuelles de shell qui ont le meme nom dans le directory(repertoire) dans lequel on
+est.
