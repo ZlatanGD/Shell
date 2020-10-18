@@ -1,0 +1,12 @@
+Zlatan Gojak 3801873  
+    Exercice 2
+
+Question 1
+
+Il faut ecrire "-p" apres mkdir (option), pour reussire a creer un repertoire
+en arborescence.
+
+Question 2
+
+Il faut ecrire:
+mkdir -p ~/LU2IN020/tp_{01/exo_0{3..4},0{2..9},{10..11}}
