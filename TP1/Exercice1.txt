@@ -1,0 +1,27 @@
+Zlatan Gojak 3801873    
+    
+    Exercice 1
+
+Question 1
+
+Si on essaye de remonter l'arborescence, une fois arrivé dans la racine,
+on ne peut plus remonter, et on reste dans le meme repertoire.
+
+Question 2
+
+Si on ecrit cd sans parametre, rien ne se passe.
+
+Question 3
+
+Pour remonter a la racine, on utilise cd /.
+
+Question 4
+
+Pas de réponse.
+
+Question 5
+
+Il existe plusieurs manières de naviguer et afficher les fichiers.
+La commande "ls ./toto/titi" nous permet de voir les fichiers de titi, lorsqu'on est dans le directory parent de toto.
+La commande "ls /toto/tiit" nous permet de voir les fichiers de titi depuis la racine.
+La commande "ls ../toto/titi"  nous permet de voir les fichiers de titi, depuis un repertoire frère de toto.
